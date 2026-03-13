@@ -4,6 +4,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  width: 800px;
 }
 
 main {
@@ -82,14 +83,16 @@ header a {
   box-sizing: border-box;
   background-image: url(../images/bg-image.png);
   background-size: 100%;
-  height: 7em;
-  padding: auto 0;
-  margin-bottom: 2em;
+  background-repeat: no-repeat;
+  height: 77px;
+  line-height: 77px;
+  margin-bottom: 1.5em;
 }
 
 .holiday-banner div {
   display: inline-block;
-  margin: 2.5em;
+  line-height: 1.2;
+  vertical-align: middle;
 }
 
 .holiday-banner p {
@@ -109,7 +112,7 @@ header a {
 .main-2 img {
   object-fit: cover;
   display: inline-block;
-  margin: 1em 1%;
+  margin: 0.6em 1%;
   width: 22.5%;
   height: 200px;
   vertical-align: top;
@@ -125,6 +128,10 @@ header a {
 }
 
 /* footer */
+
+footer {
+  margin-top: 1em;
+}
 
 .back {
   background-color: #364759;
