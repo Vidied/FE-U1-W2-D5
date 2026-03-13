@@ -3,16 +3,26 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.txtcenter {
   text-align: center;
 }
 
-.miniwhite {
-  color: white;
+a {
+  text-decoration: none;
+}
+
+.mini {
   font-size: x-small;
-  vertical-align: middle;
+  font-weight: 500;
+}
+
+.white {
+  color: white;
+}
+
+.minilink {
+  color: rgba(22, 96, 107);
+  font-size: x-small;
+  font-weight: 600;
 }
 
 main {
@@ -37,12 +47,12 @@ header img {
 .link {
   background-color: rgba(54, 71, 89);
   padding: 0.5em 1em;
+  text-align: start;
 }
 
 header a {
   padding: 0 0.5em 0;
   color: white;
-  text-decoration: none;
 }
 
 /* main 1 */
@@ -75,14 +85,38 @@ header a {
   margin-top: 1em;
 }
 
-.holiday-banner h1 {
-  color: white;
-}
 /* main 2 */
 
-.minibox img {
+.main-2 {
+  padding: 0em 0.7em;
+}
+
+.main-2-title {
+  text-align: start;
+}
+
+.main-2-title p {
   display: inline-block;
-  width: 20%;
+  font-size: small;
+  font-weight: 600;
+  margin-left: 1%;
+}
+
+.main-2 img {
+  object-fit: cover;
+  display: inline-block;
+  margin: 1em 1%;
+  width: 22.5%;
+  height: 200px;
+  vertical-align: top;
+  border-radius: 15px;
+}
+
+/* main 3 */
+
+.main-3 img {
+  width: 100%;
+  margin-top: 1em;
 }
 
 /* footer */
